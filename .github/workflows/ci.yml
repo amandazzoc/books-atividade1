@@ -12,7 +12,7 @@ jobs:
     ci:
         runs-on: ubuntu-latest
         container:
-            image: maven:3.8.6-jdk-17
+            image: maven:3.9.6-eclipse-temurin-17
         steps:
             - name: Checkout
               uses: actions/checkout@v4
