@@ -45,7 +45,7 @@ jobs:
               run: mvn -B package --file pom.xml -DskipTests
             
             - name: Upload JAR para deploy
-              uses: actions/upload-artifact@v3
+              uses: actions/upload-artifact@v4
               with:
                   name: books-app-jar
                   path: target/*.jar
